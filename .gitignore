@@ -1,0 +1,26 @@
+---
+
+## 📄 `.gitignore` para C# (.NET)
+
+Guarda esto como `.gitignore` en la raíz del proyecto:
+
+Archivos binarios
+bin/ obj/
+
+Configuración de usuario
+*.user *.suo
+
+VS Code settings
+.vscode/
+
+Datos locales y temporales
+*.log *.tmp *.bak
+
+Archivos de paquetes
+packages/ project.lock.json
+
+Archivos del sistema
+Thumbs.db .DS_Store
+
+Datos sensibles
+.env data/contactos.json
